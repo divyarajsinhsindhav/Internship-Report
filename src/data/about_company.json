@@ -1,0 +1,28 @@
+{
+  "name": "TSS Consultancy Pvt. Ltd.",
+  "founded": "2008",
+  "industry": "FinTech & RegTech",
+  "headquarters": "Rajkot, Gujarat, India",
+  "website": "https://www.tssconsultancy.com",
+  "description": "TSS Consultancy Pvt. Ltd. is an innovative technology solutions provider primarily focusing on product development for the financial regulatory sector. Under their flagship product TrackWizz, they offer world-class AML (Anti Money Laundering) and Compliance solutions that empower banks and financial institutions to fight financial crime effectively.",
+  "coreValues": [
+    "Innovation & Continuous Improvement",
+    "Data Security & Integrity",
+    "Client-Centric Approach",
+    "Transparency & Compliance"
+  ],
+  "products": [
+    {
+      "name": "TrackWizz AML Suite",
+      "description": "Comprehensive Anti Money Laundering software designed for monitoring millions of financial transactions daily."
+    },
+    {
+      "name": "TrackWizz KYC & Onboarding",
+      "description": "Automated customer onboarding and risk screening against global sanction lists and databases."
+    },
+    {
+      "name": "Regulatory Reporting Engine",
+      "description": "Automated reporting module seamlessly integrating with regulatory bodies to file STRs/SARs."
+    }
+  ]
+}

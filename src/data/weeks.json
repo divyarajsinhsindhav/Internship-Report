@@ -1,0 +1,14 @@
+[
+  { "week": 1, "startDate": "2024-01-01", "endDate": "2024-01-05", "content": "Initial orientation and environment setup. Learning about the company workflow and tools." },
+  { "week": 2, "startDate": "2024-01-08", "endDate": "2024-01-12", "content": "Started working on the UI implementation. Creating reusable components." },
+  { "week": 3, "startDate": "2024-01-15", "endDate": "2024-01-19", "content": "Integration of backend APIs. Handling data flow and state management." },
+  { "week": 4, "startDate": "2024-01-22", "endDate": "2024-01-26", "content": "Working on user authentication and session management." },
+  { "week": 5, "startDate": "2024-01-29", "endDate": "2024-02-02", "content": "Implemented dashboard layouts and data visualization widgets." },
+  { "week": 6, "startDate": "2024-02-05", "endDate": "2024-02-09", "content": "Code refactoring and optimization for better performance." },
+  { "week": 7, "startDate": "2024-02-12", "endDate": "2024-02-16", "content": "Writing unit tests for frontend components using Jest and React Testing Library." },
+  { "week": 8, "startDate": "2024-02-19", "endDate": "2024-02-23", "content": "Participated in agile ceremonies, sprint planning, and daily stand-ups." },
+  { "week": 9, "startDate": "2024-02-26", "endDate": "2024-03-01", "content": "Debugged and fixed critical production issues related to state sync." },
+  { "week": 10, "startDate": "2024-03-04", "endDate": "2024-03-08", "content": "Explored new technologies like Next.js for potential future migrations." },
+  { "week": 11, "startDate": "2024-03-11", "endDate": "2024-03-15", "content": "Documenting the frontend architecture and creating API interface guidelines." },
+  { "week": 12, "startDate": "2024-03-18", "endDate": "2024-03-22", "content": "Final project presentation preparation and handover documentation." }
+]

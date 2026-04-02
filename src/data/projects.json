@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Reporting Website",
+    "Technology": "React, Vite, Tailwind CSS",
+    "project description": "A comprehensive portal to document internship progress, showcase projects, and summarize weekly learnings. Features a responsive, modern UI with a side navigation.",
+    "githublink": "https://github.com/divyarajsinh/reporting-website"
+  },
+  {
+    "title": "E-Commerce Backend",
+    "Technology": "Node.js, Express, MongoDB",
+    "project description": "Developed RESTful APIs for an e-commerce platform including user authentication, product management, and order processing capabilities.",
+    "githublink": "https://github.com/divyarajsinh/ecommerce-backend"
+  }
+]

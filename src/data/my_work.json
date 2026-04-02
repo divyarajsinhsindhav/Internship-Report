@@ -1,0 +1,17 @@
+[
+  {
+    "taskName": "API Architecture & Blueprinting",
+    "description": "Assisted in designing robust RESTful API endpoints for the main transaction processing modules, allowing for efficient front-end communication.",
+    "toolsUsed": ["Django REST Framework", "Python", "Swagger"]
+  },
+  {
+    "taskName": "Database Schema Optimization",
+    "description": "Contributed to structuring the MySQL relational database schema to efficiently store and query large-scale historical transaction data essential for anti-money laundering checks.",
+    "toolsUsed": ["MySQL", "Data Modeling"]
+  },
+  {
+    "taskName": "Logic Integration & Testing",
+    "description": "Developed integration scripts using Postman to validate responses, test edge cases, and verify logic flow across different API microservices.",
+    "toolsUsed": ["Postman", "QA Testing", "PyTest"]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "React",
+    "description": "A JavaScript library for building user interfaces. Used extensively to create dynamic functional components and manage application state."
+  },
+  {
+    "title": "Tailwind CSS",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup."
+  },
+  {
+    "title": "Vite",
+    "description": "Next generation frontend tooling. It provides a fast development server and optimized production builds."
+  },
+  {
+    "title": "Framer Motion",
+    "description": "A production-ready motion library for React that makes it easy to add beautiful animations to your components."
+  }
+]
