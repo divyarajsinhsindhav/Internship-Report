@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import TopNavbar from './components/TopNavbar';
 import Sidebar from './components/Sidebar';
 import ContentArea from './components/ContentArea';

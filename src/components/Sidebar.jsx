@@ -1,4 +1,3 @@
-import React from 'react';
 import { Building2, LayoutDashboard, Calendar } from 'lucide-react';
 import weeksData from '../data/weeks.json';
 

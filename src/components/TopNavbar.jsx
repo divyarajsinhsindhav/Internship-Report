@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Layers, Briefcase, Code2, FileText, MonitorCheck } from 'lucide-react';
 
@@ -16,10 +15,10 @@ const TopNavbar = ({ activeSection, setActiveSection }) => {
       <div className="w-full px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center py-4 lg:py-5 space-y-4 lg:space-y-0">
           <div className="flex flex-col">
-            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight">
+            <p className="text-base font-extrabold text-slate-800 tracking-tight">
               Internship Portfolio
-            </h1>
-            <p className="text-base text-blue-600 font-semibold tracking-wide">Divyarajsinh Sindhav</p>
+            </p>
+            <h1 className="text-2xl md:text-3xl text-blue-600 font-semibold tracking-wide">Divyarajsinh Sindhav</h1>
           </div>
           
           <div className="flex flex-wrap gap-2 w-full lg:w-auto">

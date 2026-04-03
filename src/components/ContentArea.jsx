@@ -16,19 +16,61 @@ const ContentArea = ({ activeSection }) => {
   if (isWeekSection) {
     const weekNumber = parseInt(activeSection.replace('Week ', ''));
     const weekData = weeksData.find(w => w.week === weekNumber);
+
     content = weekData ? (
-      <div className="space-y-6">
-        <div className="flex items-center gap-3 text-slate-500 mb-2 font-medium">
-          <Calendar size={20} className="text-blue-600" />
-          <span>{weekData.startDate} to {weekData.endDate}</span>
+      <div className="max-w-4xl mx-auto">
+
+        {/* Main Card */}
+        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+
+          {/* Header */}
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 px-6 md:px-8 py-6 border-b border-slate-200">
+            <div className="flex items-center justify-between flex-wrap gap-4">
+
+              {/* Left */}
+              <div>
+                <div className="flex items-center gap-3 bg-slate-50 border border-slate-200 px-4 py-2 rounded-lg w-fit">
+                  <div className="bg-blue-100 p-2 rounded-md">
+                    <Calendar size={16} className="text-blue-600" />
+                  </div>
+                  <span className="text-sm font-medium text-slate-700">
+                    {weekData.startDate} – {weekData.endDate}
+                  </span>
+                </div>
+              </div>
+
+              {/* Right Badge */}
+              <div className="bg-blue-100 text-blue-700 text-sm font-semibold px-4 py-1.5 rounded-full">
+                Progress Report
+              </div>
+
+            </div>
+          </div>
+
+          {/* Body */}
+          <div className="p-6 md:p-8">
+
+            {/* Section Title */}
+            <h3 className="text-lg font-semibold text-slate-800 mb-4">
+              Summary
+            </h3>
+
+            {/* Content */}
+            <p className="text-slate-700 leading-relaxed text-[17px]">
+              {weekData.content}
+            </p>
+
+          </div>
+
         </div>
-        <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200 shadow-sm leading-relaxed text-lg">
-          <h3 className="text-xl font-bold mb-4 text-slate-900 border-b border-slate-100 pb-4">Progress Report</h3>
-          <p className="text-slate-700">{weekData.content}</p>
-        </div>
+
       </div>
-    ) : <p className="text-slate-500">No data available for this week.</p>;
-  } else if (activeSection === 'Project') {
+    ) : (
+      <div className="text-center py-12 text-slate-500">
+        <p className="text-lg">No data available for this week.</p>
+      </div>
+    );
+  }else if (activeSection === 'Project') {
     content = (
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
         {projectsData.map((project, idx) => (
@@ -47,12 +89,25 @@ const ContentArea = ({ activeSection }) => {
     content = (
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {techData.map((tech, idx) => (
-          <div key={idx} className="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all">
-            <div className="text-blue-600 mb-4 bg-blue-50 w-14 h-14 flex items-center justify-center rounded-2xl border border-blue-100">
-              <Code2 size={28} />
+          <div
+            key={idx}
+            className="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all"
+          >
+            <div className="mb-4 bg-blue-50 w-14 h-14 flex items-center justify-center rounded-2xl border border-blue-100">
+              <img
+                src={tech.icon}
+                alt={tech.title}
+                className="w-8 h-8"
+              />
             </div>
-            <h3 className="text-xl font-bold text-slate-900 mb-2">{tech.title}</h3>
-            <p className="text-slate-600 text-base leading-relaxed">{tech.description}</p>
+
+            <h3 className="text-xl font-bold text-slate-900 mb-2">
+              {tech.title}
+            </h3>
+
+            <p className="text-slate-600 text-base leading-relaxed">
+              {tech.description}
+            </p>
           </div>
         ))}
       </div>
@@ -78,13 +133,13 @@ const ContentArea = ({ activeSection }) => {
         <div className="flex flex-col gap-6">
           
           {/* Project Info Block */}
-          <div className="bg-white border border-slate-200 p-8 rounded-2xl shadow-sm">
+          {/* <div className="bg-white border border-slate-200 p-8 rounded-2xl shadow-sm">
             <h3 className="text-xs font-bold text-blue-600 uppercase tracking-widest mb-3">Project Scope</h3>
             <h4 className="text-2xl font-bold text-slate-900 mb-3">{overviewData.projectTitle}</h4>
             <p className="text-slate-600 text-base leading-relaxed max-w-5xl">
               {overviewData.projectDescription}
             </p>
-          </div>
+          </div> */}
 
           {/* Key Details Grid */}
           <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden flex flex-col">
@@ -220,29 +275,57 @@ const ContentArea = ({ activeSection }) => {
       </div>
     );
   } else if (activeSection === 'My Work') {
-    content = (
-      <div className="flex flex-col gap-6">
-        {myWorkData.map((work, idx) => (
-          <div key={idx} className="bg-white border border-slate-200 p-6 md:p-8 rounded-2xl shadow-sm hover:shadow-md transition-all group flex flex-col md:flex-row gap-6 items-start">
-            <div className="bg-blue-50 text-blue-600 w-14 h-14 rounded-2xl flex items-center justify-center border border-blue-100 flex-shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-colors">
-               <Laptop size={28} />
+  content = (
+    <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6">
+
+      {myWorkData.map((work, idx) => (
+        <div
+          key={idx}
+          className="group bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col"
+        >
+
+          {/* Top Section */}
+          <div className="flex items-center justify-between mb-4">
+
+            <div className="w-11 h-11 flex items-center justify-center rounded-xl bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition">
+              <Laptop size={20} />
             </div>
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">{work.taskName}</h3>
-              <p className="text-slate-600 text-lg leading-relaxed mb-6">{work.description}</p>
-              
-              <div className="flex flex-wrap gap-2">
-                 <span className="text-xs font-bold text-slate-400 uppercase tracking-wider mr-2 self-center">Skills Applied:</span>
-                 {work.toolsUsed.map((tool, tidx) => (
-                    <span key={tidx} className="bg-slate-100 border border-slate-200 text-slate-700 px-3 py-1.5 rounded-lg text-sm font-semibold">{tool}</span>
-                 ))}
-              </div>
-            </div>
+
+            {/* Optional badge */}
+            <span className="text-xs font-medium bg-slate-100 text-slate-500 px-2 py-0.5 rounded-md">
+              Project
+            </span>
+
           </div>
-        ))}
-      </div>
-    );
-  } else {
+
+          {/* Title */}
+          <h3 className="text-lg font-semibold text-slate-900 mb-2 line-clamp-1">
+            {work.taskName}
+          </h3>
+
+          {/* Description */}
+          <p className="text-sm text-slate-600 leading-relaxed mb-4 line-clamp-3">
+            {work.description}
+          </p>
+
+          {/* Skills */}
+          <div className="mt-auto flex flex-wrap gap-2">
+            {work.toolsUsed.map((tool, tidx) => (
+              <span
+                key={tidx}
+                className="text-xs font-medium bg-slate-100 text-slate-700 px-2 py-1 rounded-md"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+
+        </div>
+      ))}
+
+    </div>
+  );
+} else {
     content = (
       <div className="flex flex-col items-center justify-center p-12 text-center rounded-3xl bg-slate-50 border border-slate-200">
         <p className="text-slate-600 max-w-md">Additional content for '{activeSection}' will be provided soon.</p>
@@ -250,26 +333,45 @@ const ContentArea = ({ activeSection }) => {
     );
   }
   return (
-    <main className="col-span-12 md:col-span-9 h-full overflow-y-auto p-6 md:p-10 lg:p-12 relative bg-white">
-      <AnimatePresence mode="popLayout">
-        <motion.div
-          key={activeSection}
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
-          className="max-w-7xl mx-auto pb-20"
-        >
-          <div className="mb-6 md:mb-10 border-b border-slate-200 pb-4 flex items-center justify-between">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">
+    <main className="col-span-12 md:col-span-9 h-full overflow-y-auto bg-slate-50 relative">
+
+  <div className="px-6 md:px-10 lg:px-12 py-8">
+
+    <AnimatePresence mode="popLayout">
+      <motion.div
+        key={activeSection}
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -16 }}
+        transition={{ duration: 0.35, ease: "easeOut" }}
+        className="max-w-6xl mx-auto"
+      >
+
+        {/* Header */}
+        <div className="mb-8 md:mb-12 flex items-center justify-between flex-wrap gap-4">
+
+          <div>
+            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-900">
               {activeSection}
             </h2>
+
+            {/* Accent line */}
+            <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full mt-3"></div>
           </div>
+
+        </div>
+
+        {/* Content Card */}
+        <div>
           {content}
-        </motion.div>
-      </AnimatePresence>
-    </main>
-  );
+        </div>
+
+      </motion.div>
+    </AnimatePresence>
+
+  </div>
+
+</main>  );
 };
 
 export default ContentArea;

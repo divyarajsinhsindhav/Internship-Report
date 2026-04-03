@@ -2,8 +2,8 @@
   "companyName": "TSS Consultancy Pvt. Ltd.",
   "title": "Associate Software Engineer-Intern",
   "description": "A polished archive of Divyarajsinh's 12-week internship work, including weekly learning, practical work, projects, and technical documentation across Python, Django, and Django REST Framework. Internship at TSS Consultancy Pvt. Ltd.",
-  "projectTitle": "Anti Money Laundering",
-  "projectDescription": "The internship project aims to explore and implement best practices in the design and development of a RESTful Web API utilizing MySQL as the database management system.",
+  "projectTitle": "",
+  "projectDescription": "",
   "details": [
     {
       "label": "INTERNAL GUIDE",
@@ -15,7 +15,7 @@
     },
     {
       "label": "STUDENT",
-      "value": "Divyarajsinh Sindhav, 220200143066"
+      "value": "Divyarajsinh Sindhav, 220200143059"
     },
     {
       "label": "INSTITUTION",

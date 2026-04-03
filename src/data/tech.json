@@ -1,18 +1,57 @@
 [
   {
-    "title": "React",
-    "description": "A JavaScript library for building user interfaces. Used extensively to create dynamic functional components and manage application state."
+    "title": "Java",
+    "description": "A widely-used, object-oriented programming language known for its portability and performance.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
   },
   {
-    "title": "Tailwind CSS",
-    "description": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup."
+    "title": "JUnit",
+    "description": "A popular testing framework for Java used to write and run unit tests.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg"
   },
   {
-    "title": "Vite",
-    "description": "Next generation frontend tooling. It provides a fast development server and optimized production builds."
+    "title": "PostgreSQL",
+    "description": "An advanced open-source relational database system known for reliability and performance.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
   },
   {
-    "title": "Framer Motion",
-    "description": "A production-ready motion library for React that makes it easy to add beautiful animations to your components."
+    "title": "JDBC",
+    "description": "An API that enables Java applications to interact with databases using SQL queries.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+  },
+  {
+    "title": "Spring Boot",
+    "description": "A framework for building production-ready Java applications with minimal setup.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+  },
+  {
+    "title": "JavaScript",
+    "description": "A versatile programming language used for building interactive web applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+  },
+  {
+    "title": "TypeScript",
+    "description": "A superset of JavaScript that adds static typing and modern features.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  },
+  {
+    "title": "Angular",
+    "description": "A framework for building scalable single-page web applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+  },
+  {
+    "title": "Kafka",
+    "description": "A distributed event streaming platform for real-time data pipelines.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+  },
+  {
+    "title": "Docker",
+    "description": "A platform for containerizing applications for consistent deployment.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+  },
+  {
+    "title": "RabbitMQ",
+    "description": "A message broker that enables asynchronous communication between services.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg"
   }
 ]

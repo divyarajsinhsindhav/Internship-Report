@@ -1,14 +1,74 @@
 [
-  { "week": 1, "startDate": "2024-01-01", "endDate": "2024-01-05", "content": "Initial orientation and environment setup. Learning about the company workflow and tools." },
-  { "week": 2, "startDate": "2024-01-08", "endDate": "2024-01-12", "content": "Started working on the UI implementation. Creating reusable components." },
-  { "week": 3, "startDate": "2024-01-15", "endDate": "2024-01-19", "content": "Integration of backend APIs. Handling data flow and state management." },
-  { "week": 4, "startDate": "2024-01-22", "endDate": "2024-01-26", "content": "Working on user authentication and session management." },
-  { "week": 5, "startDate": "2024-01-29", "endDate": "2024-02-02", "content": "Implemented dashboard layouts and data visualization widgets." },
-  { "week": 6, "startDate": "2024-02-05", "endDate": "2024-02-09", "content": "Code refactoring and optimization for better performance." },
-  { "week": 7, "startDate": "2024-02-12", "endDate": "2024-02-16", "content": "Writing unit tests for frontend components using Jest and React Testing Library." },
-  { "week": 8, "startDate": "2024-02-19", "endDate": "2024-02-23", "content": "Participated in agile ceremonies, sprint planning, and daily stand-ups." },
-  { "week": 9, "startDate": "2024-02-26", "endDate": "2024-03-01", "content": "Debugged and fixed critical production issues related to state sync." },
-  { "week": 10, "startDate": "2024-03-04", "endDate": "2024-03-08", "content": "Explored new technologies like Next.js for potential future migrations." },
-  { "week": 11, "startDate": "2024-03-11", "endDate": "2024-03-15", "content": "Documenting the frontend architecture and creating API interface guidelines." },
-  { "week": 12, "startDate": "2024-03-18", "endDate": "2024-03-22", "content": "Final project presentation preparation and handover documentation." }
+  {
+    "week": 1,
+    "startDate": "2026-01-05",
+    "endDate": "2026-01-10",
+    "content": "This week was dedicated to onboarding and familiarization with the organization. It began with a comprehensive introduction to the company, its internal workflow, and an in-depth explanation of the Keka HRMS system to understand employee management processes. Further sessions provided insights into the company’s clients, products, and essential IT security practices to ensure safe handling of organizational data. A pre-evaluation was conducted to assess current technical knowledge and identify improvement areas. Based on the feedback received, significant effort was invested in strengthening weak areas through guided practice and self-study, helping build a solid foundation for the upcoming technical training."
+  },
+  {
+    "week": 2,
+    "startDate": "2026-01-12",
+    "endDate": "2026-01-17",
+    "content": "The second week marked the beginning of structured training conducted by Swabhav TechLabs, focusing on Java fundamentals. Core programming concepts such as flow control were covered through hands-on tasks including Armstrong number, palindrome detection, perfect number identification, and prime number generation. A Water Bill System was developed as an assignment to apply these concepts practically. Additional topics such as typecasting and switch-case statements were introduced, followed by the implementation of a Smart Utility System. Debugging techniques using IntelliJ were also taught, enhancing problem-solving skills. The week further included working with arrays and multidimensional arrays through various tasks such as rotation, peak element identification, and product array computation. The week concluded with refining assignments and dedicating time to self-learning and practice."
+  },
+  {
+    "week": 3,
+    "startDate": "2026-01-19",
+    "endDate": "2026-01-24",
+    "content": "This week focused on strengthening Object-Oriented Programming concepts. Topics such as encapsulation were explored in depth through practical implementations like the Student Profile application. Advanced topics including memory management, garbage collection, and command-line arguments were introduced, followed by the development of a Student Management System. String manipulation techniques using String and StringBuilder were covered extensively, including encoding and decoding tasks. Git fundamentals such as version control, workflow, and collaboration were introduced, and group activities were conducted to implement a calculator application collaboratively. Additional concepts such as static members, enums, and reflection were applied in account system implementations. Continuous improvement of assignments and independent learning remained a key focus throughout the week."
+  },
+  {
+    "week": 4,
+    "startDate": "2026-01-26",
+    "endDate": "2026-01-31",
+    "content": "The fourth week introduced advanced Object-Oriented Programming principles. Topics such as inheritance, polymorphism, dynamic method dispatch, and the use of the super keyword were explored and applied by enhancing previously developed systems like the account management system. Abstraction was introduced and used to improve the design of an insurance system. Interfaces were covered in detail, leading to the development of a Vehicle Management System that demonstrated multiple inheritance concepts. Exception handling was also introduced, and previously built systems were updated to handle runtime errors effectively. The week emphasized writing robust, maintainable, and scalable code, with additional time allocated for assignment improvement and self-paced learning."
+  },
+  {
+    "week": 5,
+    "startDate": "2026-02-02",
+    "endDate": "2026-02-07",
+    "content": "This week focused on file handling and the Java Collections Framework. Concepts of serialization and deserialization were implemented to manage persistent data through a Movie Management System. The collections framework was explored in depth, including List, Set, and HashMap, and applied to enhance the Account System with transaction management capabilities. A Library Book Borrowing System was developed to demonstrate real-world usage of collections. Advanced topics such as Comparable and Comparator interfaces were introduced for sorting mechanisms. Functional programming concepts were also covered, including lambda expressions, functional interfaces, and the basics of the Stream API. These concepts were applied in tasks such as implementing payment processing systems using lambda expressions."
+  },
+  {
+    "week": 6,
+    "startDate": "2026-02-09",
+    "endDate": "2026-02-14",
+    "content": "This week covered advanced Java concepts and software design principles. Multithreading was introduced, including the implementation of ExecutorService, Callable, and Future interfaces for concurrent programming. Stream API concepts were further explored and applied to account and order management systems. The SOLID principles were taught and implemented to improve code quality and maintainability. The introduction to design patterns included creational patterns such as Builder and Prototype, followed by structural patterns like Facade and Decorator. Practical implementations and proof-of-concept projects were completed, including an object-oriented Tic-Tac-Toe game using the Facade pattern. The week emphasized designing scalable and well-structured applications."
+  },
+  {
+    "week": 7,
+    "startDate": "2026-02-16",
+    "endDate": "2026-02-21",
+    "content": "The focus this week was on behavioral design patterns and software testing. Various behavioral patterns were studied and implemented to improve application flexibility. JUnit testing was introduced, and test cases were written for previously developed applications such as the Tic-Tac-Toe game. The learning then transitioned to database concepts, starting with SQL revision including joins and query structuring. Advanced SQL topics such as GROUP BY, GROUPING SETS, CUBE, and ROLLUP were explored. Hands-on practice included writing complex queries, working with JSONB data types, and performing DDL and DML operations. An ER diagram for a Course Management System was designed and implemented, reinforcing database design skills."
+  },
+  {
+    "week": 8,
+    "startDate": "2026-02-23",
+    "endDate": "2026-02-28",
+    "content": "This week focused on advanced SQL concepts and project work. Topics such as subqueries, normalization, and denormalization were covered in detail, with practical exercises to strengthen understanding. Different types of subqueries were implemented, and database structures were optimized. An evaluation was conducted to assess SQL proficiency and understanding of database concepts. The initial phase of a mini project was started, applying all previously learned concepts, including database design and backend logic. The week concluded with a demonstration of the initial project implementation."
+  },
+  {
+    "week": 9,
+    "startDate": "2026-03-02",
+    "endDate": "2026-03-07",
+    "content": "This week included both evaluation and advanced database topics. A first offline evaluation was conducted to assess overall learning progress. SQL topics were continued with a focus on functions, indexes, triggers, and stored procedures. Practical tasks involved writing optimized queries and understanding how indexing improves database performance. The implementation of triggers and procedures provided deeper insight into database automation and logic handling within the database layer."
+  },
+  {
+    "week": 10,
+    "startDate": "2026-03-09",
+    "endDate": "2026-03-14",
+    "content": "The focus shifted towards backend development technologies. JDBC was introduced for database connectivity, followed by an overview of JSP and Servlets for web application development. The Spring Framework was introduced, covering core concepts and annotations for dependency injection. REST architecture principles were studied, and APIs were developed using Hibernate JPA. Practical tasks included creating and inserting data into a Student table and testing APIs using Postman. Additional concepts such as DTO (Data Transfer Object) and pagination were implemented to improve API structure and performance."
+  },
+  {
+    "week": 11,
+    "startDate": "2026-03-16",
+    "endDate": "2026-03-21",
+    "content": "This week focused on advanced Spring concepts and project evaluation. Exception handling and validation mechanisms were implemented in Spring applications to ensure robustness. Advanced JPA mappings, particularly one-to-many relationships, were explored and implemented. A mini project evaluation was conducted, providing valuable feedback for further improvement. Additionally, the Software Development Life Cycle (SDLC) was introduced, offering a broader understanding of project planning, development, testing, and deployment processes."
+  },
+  {
+    "week": 12,
+    "startDate": "2026-03-23",
+    "endDate": "2026-03-28",
+    "content": "The final week concluded the internship with advanced topics and final evaluations. The mini project underwent final assessment, incorporating feedback and improvements. Advanced JPA mappings such as many-to-many relationships were implemented. Spring testing frameworks were explored to ensure application reliability. Security concepts were introduced through the implementation of JWT-based authentication. The week focused on consolidating all learned concepts, preparing for real-world development scenarios, and ensuring readiness for professional software development practices."
+  }
 ]

@@ -2,29 +2,43 @@
   {
     "title": "Internship Offer Letter",
     "type": "PDF",
-    "date": "2023-12-15",
+    "date": "",
     "status": "Verified",
     "link": "#"
   },
   {
     "title": "Weekly Log Reports (Week 1 to 12)",
     "type": "Archive",
-    "date": "2024-03-25",
+    "date": "",
     "status": "Completed",
     "link": "#"
   },
   {
     "title": "Anti Money Laundering Project Specs",
     "type": "Document",
-    "date": "2024-02-10",
-    "status": "Completed",
+    "date": "",
+    "status": "Pending from Company",
     "link": "#"
   },
   {
     "title": "Internship Completion Certificate",
     "type": "PDF",
-    "date": "2024-04-10",
-    "status": "Pending",
+    "date": "",
+    "status": "Pending from Company",
+    "link": "#"
+  },
+  {
+    "title": "Internship Report (First 3 Chapters)",
+    "type": "Document",
+    "date": "",
+    "status": "In Progress",
+    "link": "#"
+  },
+  {
+    "title": "Project Presentation (PPT)",
+    "type": "Presentation",
+    "date": "",
+    "status": "Completed",
     "link": "#"
   }
 ]
